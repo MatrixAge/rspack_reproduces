@@ -1,0 +1,27 @@
+{
+      "name": "app",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+            "dev": "rspack serve",
+            "build": "rspack build"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+            "@local/test_lib":"workspace:^",
+            "react": "0.0.0-experimental-ea17cc18f-20230807",
+            "react-dom": "0.0.0-experimental-ea17cc18f-20230807",
+            "react-router": "^6.14.2",
+            "react-router-dom": "^6.14.2"
+      },
+      "devDependencies": {
+            "@rspack/cli": "^0.2.12",
+            "fast-equals": "^5.0.1",
+            "@types/react": "^18.2.19",
+            "@types/react-dom": "^18.2.7",
+            "@types/node": "^20.4.8"
+      }
+}

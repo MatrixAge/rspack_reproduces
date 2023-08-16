@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+npm-debug.log*
+package-lock.json
+*-lock.yaml
+
+# production
+**/dist
+
+# misc
+.DS_Store
+.idea
+.vscode
+.svn
+.swc
+
+# temp
+**/.tmp
+
+# Electron 
+release
+src/main/bundle.js
+src/main/bundle.js.map
